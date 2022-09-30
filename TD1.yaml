@@ -1,0 +1,24 @@
+---
+
+projets:
+  - name: Nom du Projet
+    libraries:
+      - name: JDBC
+        description: Description de JDBC
+        version: 21.3.0
+      - name: Junit
+        description: Description de Junit
+        version: 4.13.2
+      - name: Jersey
+        description: Description de Jersey
+        version: 3.0.3
+    servers:
+      - name: Serveur de test
+        url: http://ServerTest.fr
+      - name: Serveur d'Intégration
+        url: http://ServerIntegration.fr
+      - name: Serveur de Production
+        url: http://ServerProduction.fr
+  - name: Projet n°2
+    libraries:
+    servers:
