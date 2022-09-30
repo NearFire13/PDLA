@@ -1,0 +1,47 @@
+<?xml version ="1.0" encoding="iso-8859-1"?>
+<projets>
+    <project>
+        <name>Nom du Projet</name>
+        
+        <libraries>
+            <library>
+                <name>JDBC</name>
+                <description>Description de JDBC</description>
+                <version>21.3.0</version>
+            </library>
+            <library>
+                <name>Junit</name>
+                <description>Description de Junit</description>
+                <version>4.13.2</version>
+            </library>
+            <library>
+                <name>Jersey</name>
+                <description>Description de Jersey</description>
+                <version>3.0.3</version>
+            </library>
+        </libraries>
+        
+        <servers>
+            <server>
+                <name>Serveur de test</name>
+                <url>http://ServerTest.fr</url>
+            </server>
+            
+            <server>
+                <name>Serveur d'Intégration</name>
+                <url>http://ServerIntegration.fr</url>
+            </server>
+            
+            <server>
+                <name>Serveur de Production</name>
+                <url>http://ServerProduction.fr</url>
+            </server>
+        </servers>
+        
+    </project>
+    <project>
+        <name>Projet n°2</name>
+        <libraries></libraries>
+        <servers></servers>
+    </project>
+</projets>
